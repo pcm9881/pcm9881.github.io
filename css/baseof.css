@@ -1,0 +1,20 @@
+/* desktop */
+@media (min-width: 1024px) {
+
+}
+
+/* mobile */
+@media (max-width: 1024px) {
+
+}
+
+.page-wrapper {
+    position: relative;
+    z-index: 10;
+    min-height: 100%;
+    padding-bottom: 1px;
+}
+
+.page-content {
+    padding: 1rem;
+}

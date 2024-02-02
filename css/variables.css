@@ -1,0 +1,59 @@
+:root {
+    --blue-100: rgb(173,213,249)	;
+    --blue-200: rgb(127,189,247);
+    --blue-300: rgb(84,164,243);
+    --blue-400: rgb(39,113,223);
+    --blue-500: rgb(28,78,178);
+    --blue-600: rgb(20,51,143);
+  
+    --indigo-100: rgb(184,189,227);
+    --indigo-200: rgb(141,149,209);
+    --indigo-300: rgb(102,112,191);
+    --indigo-400: rgb(43,51,155);
+    --indigo-500: rgb(30,34,128);
+    --indigo-600: rgb(20,20,107);
+    
+    --purple-100: rgb(216,174,225);
+    --purple-200: rgb(194,123,207);
+    --purple-300: rgb(170,78,188);
+    --purple-400: rgb(122,0,154);
+    --purple-500: rgb(86,0,136);
+    --purple-600: rgb(56,0,121);
+  
+    --gray-100: rgb(217,216,217);
+    --gray-200: rgb(217,216,217);
+    --gray-300: rgb(176,176,176);
+    --gray-400: rgb(78,78,78);
+    --gray-500: rgb(51,51,51);
+    --gray-600: rgb(25,25,25);
+  
+    --red-100: rgb(249,192,200);
+    --red-200: rgb(233,133,13);
+    --red-300: rgb(232,58,64);
+    --red-400: rgb(220,33,4);
+    --red-500: rgb(198,26,3);
+    --red-600: rgb(166,9,22);
+  
+    --green-100: #f0fff4;
+    --green-200: #c6f6d5;
+    --green-300: #9ae6b4;
+    --green-400: #68d391;
+    --green-500: #48bb78;
+    --green-600: #38a169;
+    
+    --white: #fff;
+    --black: #000000;
+
+    --text-color-first: #000000;
+    --text-color-second: #313030; 
+    --text-color-third: rgb(93, 92, 92);
+
+    --bg-color-first: #d4d1d1;
+    --bg-color-second: #ededed;
+    --bg-color-third: #d6d5d5;
+
+    --button-color-first: #000000;
+    --button-color-second: #313030;
+    --button-color-third: rgb(93, 92, 92);
+    
+  }

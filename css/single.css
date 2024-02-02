@@ -1,0 +1,24 @@
+.article-content pre {
+    padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .article-content {
+        padding: 1rem;
+    }
+    
+    .content-meta {
+        position: sticky;
+    }
+}
+
+@media (max-width: 1024px) {
+    .article-content {
+        padding: 1rem;
+    }
+
+    .content-meta {
+        display: none;
+    }
+}
+
