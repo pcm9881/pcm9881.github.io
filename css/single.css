@@ -2,6 +2,15 @@
     padding: 1rem;
 }
 
+.article-content h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.article-content h3 {
+    margin-top: 1.5em;
+}
+
 @media (min-width: 1024px) {
     .article-content {
         padding: 1rem;
