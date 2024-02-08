@@ -14,6 +14,8 @@
 .slide-content {
     overflow: hidden;
     width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
   
 .slide {
@@ -66,44 +68,79 @@
 
 
 .slide-pagination { 
-    position: absolute; 
-    left: 50%; 
-    bottom: 0; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
-    transform: translateX(-50%); 
+  position: absolute; 
+  left: 50%; 
+  bottom: 0; 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  transform: translateX(-50%); 
 }
 
 .slide-pagination .dot { 
-    display: inline-block; 
-    width: 15px; 
-    height: 15px; 
-    margin: 0 5px; 
-    overflow: hidden; 
-    background: #ddd; 
-    border-radius: 50%; 
-    transition: 0.3s; 
+  display: inline-block; 
+  width: 15px; 
+  height: 15px; 
+  margin: 0 5px; 
+  overflow: hidden; 
+  background: #ddd; 
+  border-radius: 50%; 
+  transition: 0.3s; 
 }
 
 .slide-pagination .dot.dot_active { 
-    background: #333; 
+  background: #333; 
 }
 
 .slide-pagination .dot a { 
-    display: block; 
-    width: 100%; 
-    height: 100%; 
+  display: block; 
+  width: 100%; 
+  height: 100%; 
 }
 
 .slide-item {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
 }
 
 .slide-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+  /* border-radius: 4px; */
+}
+
+.slide-image-sample {
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+}
+
+.card-image {
+  padding: 1rem;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-title a {
+  color:#000;
+  text-decoration: none;
+}
+
+.card-footer {
+  padding-top: 20px
+}
+
+.card-footer a {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #000;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.card-footer a:hover {
+  background-color: #333;
 }
