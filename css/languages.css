@@ -70,3 +70,19 @@
 .menu-content input.toggle+label::after {
     content: "▸";
 }
+
+.languages-container label {
+    cursor: pointer;
+}
+
+.languages-items li {
+    cursor: pointer;
+}
+
+.languages-items li:hover {
+    background-color: rgba(var(--gray-100), 0.3);
+}
+
+.languages-option p {
+    padding: 0.3rem;;
+}

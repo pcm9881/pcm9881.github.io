@@ -1,44 +1,63 @@
 .menu-wrapper {
-    flex: 0 0 16rem;
+  flex: 0 0 16rem;
 }
 
 .menu-content {
-    position: fixed;
-    transition: left .3s ease-in-out;
-    overflow-y: auto;
-    overflow-x: hidden;
-    top: 0;
-    bottom: 0;
-    z-index: 10;
-    width: 16rem;
-    height: 100%;
+  position: fixed;
+  transition: left .3s ease-in-out;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 16rem;
+  height: 100%;
 }
 
 .menu-inner-content {
-    padding: 1rem
+  padding: 1rem
 }
 
 .menu-logo-wrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .menu-logo {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .menu-title-wrapper {
-    text-align: center;
+  text-align: center;
 }
 
 .menu-title {
-    width: 140px;
-    height: 35px;
+  width: 140px;
+  height: 35px;
 }
 
 .menu-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu-item a {
+  color: var(--gray-500);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  transition: font-size .5s;
+}
+
+.menu-item a:hover {
+  color: var(--black);
+  font-size: 1.2rem;
+}
+
+.menu-item a.active {
+  color: var(--black);
+  font-size: 1.2rem;
 }

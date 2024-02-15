@@ -6,3 +6,20 @@
 .powered-by {
     font-size: 0.8rem;
 }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.link-item {
+    width: 20%;
+    text-align: center;
+}
+
+.link-icon {
+    width: 2rem;
+    height: 2rem;
+}

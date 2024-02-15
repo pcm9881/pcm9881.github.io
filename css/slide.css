@@ -125,7 +125,7 @@
 }
 
 .card-title a {
-  color:#000;
+  color:var(--black);
   text-decoration: none;
 }
 
@@ -136,11 +136,11 @@
 .card-footer a {
   color: #fff;
   border-radius: 5px;
-  background-color: #000;
+  background-color: var(--black);
   text-decoration: none;
   padding: 0.5rem;
 }
 
 .card-footer a:hover {
-  background-color: #333;
+  background-color: var(--gray-500);
 }
