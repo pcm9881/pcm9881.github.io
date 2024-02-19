@@ -19,3 +19,12 @@
     padding: 1rem;
     min-width: 820px;
 }
+
+code:not([class]){
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    padding: 0.2em 0.4em;
+}
